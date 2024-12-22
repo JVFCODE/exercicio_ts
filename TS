@@ -1,0 +1,14 @@
+function multiplicar(num1: number, num2: number): number {
+    return num1 * num2;
+}
+
+function saudacao(nome: string): string {
+    return "Olá " + nome;
+}
+
+// Exemplo de uso
+const resultadoMultiplicacao = multiplicar(5, 10);
+console.log(resultadoMultiplicacao); // 50
+
+const mensagem = saudacao("Maria");
+console.log(mensagem); // Olá Maria
